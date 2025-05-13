@@ -6,10 +6,18 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/welcomeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello, welcome to Simple File Writer!"
-        android:textSize="18sp" />
+        android:text="Welcome to Simple File Writer!"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/writeFileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write Dummy File"
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>
